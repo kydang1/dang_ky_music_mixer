@@ -1,5 +1,4 @@
-# dang_ky_music_mixer
-# ${1:Music Mixer Project}
+# Music Mixer Project
 Music mixer project repo
 
 ## Usage
