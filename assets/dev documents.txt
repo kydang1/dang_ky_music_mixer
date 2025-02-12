@@ -1,0 +1,16 @@
+## What are you making?/Overview of the Music Mixer
+A website where you can mix beats, music together.
+
+## How will it work?/Key Features
+Drag and drop beats to mix and match.
+
+## What will you need?/Architecture
+- User Interface (UI)
+- Drag and Drop Logic
+- Audio Processing
+- Event Handling
+
+## Resources/Research (include links)
+
+## Task Delegation (Set up deliverables in sprints)
+
