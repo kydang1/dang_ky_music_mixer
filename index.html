@@ -9,31 +9,22 @@
 </head>
 <body>
     <h1 class="hidden">Ky's Music Mixer Project</h1>
-    <header class="grid-con">
-        <div class="col-start-1 col-span-4" id="logo">
+    <header>
+        <div id="logo">
             <a href="index.html">
             <img src="images/music_mixer_logo.svg" alt="music mixer logo">
             </a>
         </div>
-        <div class="col-start-5" id="main-nav">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Beats</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </nav>
-        </div>
     </header>
 
-    <div class="" id="banner-content">
+    <div id="banner-content">
         <h2>Welcome to Ky's Music Mixer</h2>
         <p>Here you can mix and match beats and create your own music.</p>
         <p>Drag and drop the audio to the designated boxes and mix and match.</p>
     </div>
 
     <section class="full-width-grid-con">
-            <h3 class="hidden">Drop Zones</h2>
+            <h3 class="hidden">Drop Zones</h3>
             <div id="dropZone-con" class="grid-con">
                 <div class="col-start-2 col-span-4">
                     <div class="dropZone">
@@ -56,7 +47,7 @@
 
     <div class="full-width-grid-con">
         <section id="audio-con" class="col-span-full">
-          <h3 class="hidden">Audios</h2>
+          <h3 class="hidden">Audios</h3>
                 <img src="images/bass.svg" alt="bass guitar svg" data-audio-name="bassLoop" class="instrument_img" draggable="true">
                 <img src="images/guitar.svg" alt="guitar svg" data-audio-name="guitarLoop" class="instrument_img" draggable="true">
                 <img src="images/drums.svg" alt="drum svg" data-audio-name="drums" class="instrument_img" draggable="true">
@@ -65,5 +56,23 @@
                 <img src="images/bass2.svg" alt="bass guitar second svg" data-audio-name="bassLoopTwo" class="instrument_img" draggable="true">
         </section>
     </div>
+
+    <section class="audio-controls">
+		<h3 class="hidden">Audio Controls</h3>
+		<button id="playButton" class="btn">
+			<img src="images/play_button.svg" alt="play button" id="play-btn">
+		</button>
+        <button id="refreshButton" class="btn">
+			<img src="images/refresh.svg" alt="play button" id="refresh-btn">
+		</button>
+	</section>
+
+	<section class="volume-controls">
+		<h3 class="hidden">Volume Controls</h3>
+            <h4>Volume</h4>
+			<input id="volumeControl" type="range" min="0" max="100" step="1">
+	</section>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
