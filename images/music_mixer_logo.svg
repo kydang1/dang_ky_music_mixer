@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="music_mixer_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.68 78.33">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-4 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-3 {
+        font-family: THENEXTFONT-DEMOVERSION, 'THE NEXT FONT';
+        font-size: 72px;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(0 61.2)"><tspan x="0" y="0" xml:space="preserve">MUSI    MIXER</tspan></text>
+  <g id="C">
+    <path class="cls-2" d="M219.58,49.85c-3.82,3.78-9.06,6.11-14.86,6.11-11.67,0-21.12-9.46-21.12-21.12s9.46-21.12,21.12-21.12c5.98,0,11.38,2.49,15.23,6.49l9.77-3.11c-5.56-7.81-14.68-12.92-25-12.92-16.93,0-30.66,13.73-30.66,30.66s13.73,30.66,30.66,30.66c10.08,0,19.03-4.87,24.62-12.38l-9.76-3.27Z"/>
+    <circle class="cls-4" cx="204.72" cy="34.85" r="12.74"/>
+    <circle class="cls-1" cx="204.72" cy="34.85" r="2.31"/>
+    <circle class="cls-2" cx="230.75" cy="7.23" r="4.86"/>
+    <path class="cls-2" d="M226.88,10.17s-4.14,6.54-3.94,6.54,0,22.01-1.18,23.78-2.16,2.95-2.16,2.95h-2.13l-4.75,5.9s1.18,2.95,2.95,3.14,6.09-6.29,6.09-6.29l3.14-5.7,1.98-24.77,1.92-4.05-1.92-1.51Z"/>
+  </g>
+</svg>
