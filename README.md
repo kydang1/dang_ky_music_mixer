@@ -1,9 +1,10 @@
 # Music Mixer Project
-Music mixer project repo
+Music Mixer Project Repo
 
 ## Usage
 Use the website to mix beats, music. drag and drop audio files and mix together some beats.
 
 ## Credits
-Ky Dang
+Developer: Ky Dang
+Instructor: Jake Meloche
 
