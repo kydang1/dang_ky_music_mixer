@@ -13,4 +13,8 @@ Drag and drop beats to mix and match.
 ## Resources/Research (include links)
 
 ## Task Delegation (Set up deliverables in sprints)
-
+Ky Dang
+- Website Development
+- Implementing Audio
+- Audio Processing
+- Event Handling
