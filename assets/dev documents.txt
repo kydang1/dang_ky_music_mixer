@@ -11,7 +11,9 @@ Drag and drop beats to mix and match.
 - Event Handling
 
 ## Resources/Research (include links)
-
+Audio files from: 
+- samplefocus.com
+- loopazaon.com
 ## Task Delegation (Set up deliverables in sprints)
 Ky Dang
 - Website Development

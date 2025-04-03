@@ -2,13 +2,19 @@ console.log('JavaScript Console Connected.');
 // Declare variables
 const playBtn = document.querySelector('#playButton'),
     refreshBtn = document.querySelector('#refreshButton'),
-    volumeLevel = document.querySelector('#volumeControl');
+    volumeLevel = document.querySelector('#volumeControl'),
+    // Define audio variables as constants
+    bassLoop = document.querySelector('#bassLoop'),
+    bassLoopTwo = document.querySelector('#bassLoopTwo'),
+    drums = document.querySelector('#drums'),
+    guitarLoop = document.querySelector('#guitarLoop'),
+    melodyLoop = document.querySelector('#melodyLoop'),
+    piano = document.querySelector('#piano');
 
 let dropZones = document.querySelectorAll('.dropZone'),
-    audios = document.querySelectorAll('#audio-con img'),
-    zoneTaken,
-    draggedPiece,
-    loops = document.querySelectorAll('#audios audio');
+    audioFiles = document.querySelectorAll('.instrument_img'),
+    loops = [bassLoop],
+    draggedPiece;
 
 // Functions 
 function dragStart() {
@@ -21,7 +27,6 @@ function dragOver(e) {
 }
 function dropEnd(e) {
     e.preventDefault();
-    console.log('User has dropped ', draggedPiece.id, ' in ', this.id);
     // Check if zone is taken, if not, append child
     if (this.childElementCount === 0) {
         this.appendChild(draggedPiece);
@@ -45,6 +50,6 @@ function playAudios () {
 // Volume Slider event listener
 volumeLevel.addEventListener('change', volumeControl);
 // Drop zone events
-audios.forEach(audio => audio.addEventListener('dragstart', dragStart));
+audioFiles.forEach(audio => audio.addEventListener('dragstart', dragStart));
 dropZones.forEach(zone => zone.addEventListener('dragover', dragOver));
 dropZones.forEach(zone => zone.addEventListener('drop', dropEnd));
