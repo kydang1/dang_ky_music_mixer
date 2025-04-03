@@ -81,3 +81,11 @@ body{
   margin: 0 auto;
   padding: 10px;
 }
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}

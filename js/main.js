@@ -13,7 +13,7 @@ const playBtn = document.querySelector('#playButton'),
 
 let dropZones = document.querySelectorAll('.dropZone'),
     audioFiles = document.querySelectorAll('.instrument_img'),
-    loops = [bassLoop],
+    sounds = document.querySelectorAll('#audios audio'),
     draggedPiece;
 
 // Functions 
@@ -37,15 +37,15 @@ function dropEnd(e) {
         console.log('Error! This drop zone is taken!');
     }
 }
-function volumeControl () {
-    loops.forEach(loop => loop.volume = (this.value / 100));
-}
 function playAudios () {
-    loops.forEach(loop => {
-    loop.pause();
-    loop.currentTime = 0;
-    loop.play();
+    sounds.forEach(sound => {
+    sound.currentTime = 0;
+    sound.play();
     });
+}
+
+function volumeControl () {
+    sounds.forEach(sound => sound.volume = (this.value / 100));
 }
 // Volume Slider event listener
 volumeLevel.addEventListener('change', volumeControl);
